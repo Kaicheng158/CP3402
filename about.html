@@ -1,0 +1,200 @@
+<!doctype html>
+<!-- This website template was created by: Kaicheng Liang -->
+<html lang="en">
+<head>
+    <title>Forward Fitness Club</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            font-family: 'Roboto Slab', serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #container {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header img {
+            max-width: 150px;
+        }
+
+        nav {
+            background: #444;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ff6347;
+        }
+
+        main {
+            flex: 1;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #about {
+            max-width: 800px;
+        }
+
+        #about h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .section h2 {
+            font-size: 2em;
+            margin: 20px 0 10px;
+        }
+
+        .section p {
+            margin: 10px 0;
+        }
+
+        .section ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+
+        .section ul li {
+            list-style: disc;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="container">
+
+        <!-- Header -->
+        <header>
+            <a href="index.html"><img src="images/forward-fitness-logo.png" alt="Forward Fitness Club logo"></a>
+        </header>
+
+        <!-- Navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="classes.html">Classes</a></li>
+                <li><a href="nutrition.html">Nutrition</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <main>
+            <div id="about">
+                <h1>About Us</h1>
+                
+                <div class="section" id="weights">
+                    <h2>Weights</h2>
+                    <img src="images/people-with-weights.jpg" alt="Two people working out with a weight in each hand">
+                    <p>Our facility includes a weight training area with several weight options. Build lean muscle with weights and improve your core with weight training.</p>
+                    <ul>
+                        <li>Dumbbells</li>
+                        <li>Kettle bells</li>
+                        <li>Barbells</li>
+                    </ul>
+                </div>
+                
+                <div class="section" id="cardio">
+                    <h2>Cardio</h2>
+                    <img src="images/people-workingout-machines.jpg" alt="Cardio Equipment">
+                    <p>Burn fat through cardio workouts. Experts recommend 150 minutes of cardio each week. We have several equipment choices for your workout.</p>
+                    <ul>
+                        <li>Treadmills</li>
+                        <li>Elliptical Machines</li>
+                        <li>Exercise Bikes</li>
+                    </ul>
+                </div>
+                
+                <div class="section" id="training">
+                    <h2>Personal Training</h2>
+                    <img src="images/personal-trainer.jpg" alt="Personal Training">
+                    <p>Our certified personal trainers work with you to help you obtain your fitness goals and track your progress. Personal training has many benefits.</p>
+                    <ul>
+                        <li>Accountability</li>
+                        <li>Personalised Program</li>
+                        <li>Consistent Support and Motivation</li>
+                    </ul>
+                </div>
+                
+                <div class="section" id="exercises">
+                    <h2>Common Exercises</h2>
+                    <p>The following are common exercises that we encourage our clients to do as part of their daily exercise routine.</p>
+                    <dl>
+                        <dt>Burpee</dt>
+                        <dd>Burpees are a great full-body exercise to increase your strength and endurance. Begin in a standing position, drop into a squat and extend your hands forward, kick your feet back and then forward again quickly, and then jump up from a squatted position.</dd>
+
+                        <dt>Plank</dt>
+                        <dd>Planks build your core strength. To perform a plank, get in a push-up position and rest your forearms on the floor. Hold the position as long as you can.</dd>
+                        
+                        <dt>Mountain Climber</dt>
+                        <dd>Mountain climbers are a good cardio exercise. Place your hands on the floor in a push-up position, bring one knee up to your chest, and then switch as quickly as you can (as though you are climbing a mountain).</dd>
+                    </dl>
+                    <p>For more information about how to stay active, visit the <a href="https://www.hhs.gov/fitness/be-active/index.html" target="_blank">U.S. Department of Health and Human Services</a>.</p>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer><br>
+            <p>&copy; Copyright 2022. All Rights Reserved.</p>
+            <p><a href="mailto:forwardfitness@club.net">forwardfitness@club.net</a></p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
